@@ -1,0 +1,16 @@
+﻿YummyApp CI/CD - GitHub Actions Run
+===================================
+Repository: https://github.com/QThai-ok/yummyapp-cicd
+Workflow: yummyapp-ci.yml
+Branch: main
+Trigger: push
+Run ID: 38878523245
+Commit: 67e26b
+Result: Success
+Total duration: 16 seconds
+Artifacts: 1
+
+Note:
+GitHub Actions displayed a Node.js 20 deprecation warning
+for actions/checkout@v4, actions/setup-python@v5 and
+actions/upload-artifact@v4. The workflow still succeeded.
