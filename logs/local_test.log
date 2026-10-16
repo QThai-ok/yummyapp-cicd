@@ -1,0 +1,31 @@
+﻿=== Flake8 ===
+Flake8: PASS
+
+=== Unit Tests with Coverage ===
+python : test_gps_returns_empty_list (test_yummy_app.TestYummyApp.test_gps_returns_empty_list) ... ok
+At line:1 char:1
++ python -m coverage run -m unittest -v *> logs\test_output.tmp
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_gps_return...ty_list) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_gps_returns_restaurants (test_yummy_app.TestYummyApp.test_gps_returns_restaurants) ... ok
+test_gps_signal_lost (test_yummy_app.TestYummyApp.test_gps_signal_lost) ... ok
+test_promo_network_error (test_yummy_app.TestYummyApp.test_promo_network_error) ... ok
+test_promo_new_os_not_supported (test_yummy_app.TestYummyApp.test_promo_new_os_not_supported) ... ok
+test_promo_new_os_supported (test_yummy_app.TestYummyApp.test_promo_new_os_supported) ... ok
+test_promo_valid_online (test_yummy_app.TestYummyApp.test_promo_valid_online) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.003s
+
+OK
+
+=== Coverage Report ===
+Name                Stmts   Miss  Cover
+---------------------------------------
+gps_service.py          4      1    75%
+test_yummy_app.py      42      1    98%
+yummy_app.py           26      2    92%
+---------------------------------------
+TOTAL                  72      4    94%
